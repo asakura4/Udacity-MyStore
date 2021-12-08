@@ -36,22 +36,5 @@ In terminal, run the following to setup the default product, user, and order.\
 ## Instructions to run the tests 
 `npm run test` 
 
-## .env file information
-- POSTGRES_HOST=127.0.0.1 \
-(DB host ip)
-- POSTGRES_DB=shopping \
-(default connecting DB)
-- POSTGRES_TEST_DB=shopping_test \
-(default connecting test DB)
-- POSTGRES_USER=shopping_user \
-(test user in supertest) 
-- POSTGRES_PASSWORD=password123 \
-(test password of user)
-- ENV=dev \
-(environment)
-- BCRYPT_PASSWORD=speak-friend-and-enter \
-- SALT_ROUNDS=10 \
-(salt of bcrypt)
-- TOKEN_SECRET=kamehameha321! \
-(token)
+
 
