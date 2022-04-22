@@ -4,13 +4,13 @@
 In terminal, start psql:
 `psql postgres`  
 in psql run the following:  
-`CREATE USER shopping_user WITH PASSWORD 'password123';` \
-`CREATE DATABASE shopping;` \ 
-`CREATE DATABASE shopping_test;`\  
-`\c shopping` \
-`GRANT ALL PRIVILEGES ON DATABASE shopping TO shopping_user;`  \
-`\c shopping_test` \
-`GRANT ALL PRIVILEGES ON DATABASE shopping_test TO shopping_user;`  \
+`CREATE USER shopping_user WITH PASSWORD 'password123';` \ 
+`CREATE DATABASE shopping;` \  
+`CREATE DATABASE shopping_test;`\   
+`\c shopping` \ 
+`GRANT ALL PRIVILEGES ON DATABASE shopping TO shopping_user;` \ 
+`\c shopping_test` \ 
+`GRANT ALL PRIVILEGES ON DATABASE shopping_test TO shopping_user;` \ 
 to test that it is working run `\dt` and it should output "No relations found."  
 
 ## what ports the backend and database are running on
