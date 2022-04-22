@@ -11,7 +11,7 @@ in psql run the following:
 `GRANT ALL PRIVILEGES ON DATABASE shopping TO shopping_user;`  
 `\c shopping_test` 
 `GRANT ALL PRIVILEGES ON DATABASE shopping_test TO shopping_user;`  
-to test that it is working run \dt and it should output "No relations found."  
+to test that it is working run `\dt` and it should output "No relations found."  
 
 ## what ports the backend and database are running on
 port: `3000`  
@@ -23,11 +23,11 @@ default user: `shopping_user`
 install yarn `npm install yarn -g`\
 install db-migrate on the machine for terminal commands `npm install db-migrate -g`\
 check node version `node -v`
-it needs to be 10 or 12 level. If node was not 10 or 12 level, run `npm install -g n`\
-`n 10.18.0`\
+it needs to be 10 or 12 level.  
+If node was not 10 or 12 level, run `npm install -g n 10.18.0`\
 `PATH="$PATH"`\
 use `node -v` to check that the version is 10 or 12\
-install all project dependencies `yarn` \
+install all project dependencies `yarn` 
 
 ## Set up db table creation  
 In terminal, run the following to setup the default product, user, and order.\
